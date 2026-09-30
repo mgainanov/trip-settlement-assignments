@@ -1,0 +1,25 @@
+{
+  "method": "Неизменённый v1 запускался в изолированных каталогах с прежним расположением файлов и символьной ссылкой на каждый вход. Код v1 не публикуется, поскольку содержит контрольные ответы собственной поездки.",
+  "results": {
+    "own": {
+      "exit_code": 0,
+      "tool_sha256": "e0f6402194a2c7d4cad3bff588264b59dfee1683dac8ff8fa4f05f6624cddc21",
+      "error": ""
+    },
+    "gist": {
+      "exit_code": 1,
+      "tool_sha256": "e0f6402194a2c7d4cad3bff588264b59dfee1683dac8ff8fa4f05f6624cddc21",
+      "error": "FileNotFoundError: chat.md отсутствует; первичные источники находятся внутри report.md."
+    },
+    "beijing": {
+      "exit_code": 1,
+      "tool_sha256": "e0f6402194a2c7d4cad3bff588264b59dfee1683dac8ff8fa4f05f6624cddc21",
+      "error": "AssertionError: assert 30 <= len(messages) <= 40; парсер заголовков ### Mxx не распознаёт табличный чат."
+    },
+    "tbilisi": {
+      "exit_code": 1,
+      "tool_sha256": "e0f6402194a2c7d4cad3bff588264b59dfee1683dac8ff8fa4f05f6624cddc21",
+      "error": "AssertionError: assert 30 <= len(messages) <= 40; табличный чат и JSON операции не поддерживаются."
+    }
+  }
+}

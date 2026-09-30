@@ -1,0 +1,446 @@
+{
+  "people": [
+    "Макс",
+    "Оля",
+    "Дима",
+    "Катя",
+    "Саша"
+  ],
+  "scenario": "confirmed",
+  "cash_total_cents": 9634000,
+  "allocated_total_cents": 9634000,
+  "pending_allocation_cents": 0,
+  "gross_cents": 10335300,
+  "refunds_cents": 701300,
+  "paid_cents": {
+    "Макс": 2407720,
+    "Оля": 1571720,
+    "Саша": 1722840,
+    "Дима": 1942000,
+    "Катя": 1989720
+  },
+  "shares_cents": {
+    "Макс": 1989720,
+    "Оля": 1989720,
+    "Дима": 1989720,
+    "Катя": 1989720,
+    "Саша": 1675120
+  },
+  "balances_cents": {
+    "Макс": 418000,
+    "Оля": -418000,
+    "Дима": -47720,
+    "Катя": 0,
+    "Саша": 47720
+  },
+  "plan": [
+    {
+      "sender": "Оля",
+      "recipient": "Макс",
+      "cents": 418000
+    },
+    {
+      "sender": "Дима",
+      "recipient": "Саша",
+      "cents": 47720
+    }
+  ],
+  "minimum_transfers": 2,
+  "known_transfers": [],
+  "final_settlement_ready": true,
+  "disputes": [
+    {
+      "kind": "personal",
+      "text": "Личная покупка исключена из общих расходов.",
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L22"
+      ],
+      "amount_rub": null,
+      "state": "excluded"
+    },
+    {
+      "kind": "missing_amount",
+      "text": "Расход заявлен без суммы/чека; не включён. Заявитель позднее снял требование.",
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L25",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L40"
+      ],
+      "amount_rub": null,
+      "state": "withdrawn"
+    }
+  ],
+  "duplicates": [
+    {
+      "receipt": "R04",
+      "messages": [
+        "M06",
+        "M10"
+      ],
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R04.png",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L12",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L16"
+      ]
+    }
+  ],
+  "notes": [
+    "Равное распределение общего чека без индивидуальных позиций — правило импорта; состав уточняется по сообщениям об отсутствии.",
+    "Обещание возврата не проведено отдельно: найден последующий подтверждённый возврат."
+  ],
+  "rows": [
+    {
+      "id": "R01",
+      "payer": "Макс",
+      "date": "2025-09-26",
+      "currency": "RUB",
+      "amount": "24077.20",
+      "rate": "1",
+      "cash_cents": 2407720,
+      "eligible_cents": 2407720,
+      "shares": {
+        "Макс": 481544,
+        "Оля": 481544,
+        "Дима": 481544,
+        "Катя": 481544,
+        "Саша": 481544
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R01.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L7"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R02",
+      "payer": "Оля",
+      "date": "2025-09-26",
+      "currency": "RUB",
+      "amount": "3133.20",
+      "rate": "1",
+      "cash_cents": 313320,
+      "eligible_cents": 313320,
+      "shares": {
+        "Макс": 62664,
+        "Оля": 62664,
+        "Дима": 62664,
+        "Катя": 62664,
+        "Саша": 62664
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R02.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L8"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R03",
+      "payer": "Саша",
+      "date": "2025-09-26",
+      "currency": "RUB",
+      "amount": "942.40",
+      "rate": "1",
+      "cash_cents": 94240,
+      "eligible_cents": 94240,
+      "shares": {
+        "Макс": 18848,
+        "Оля": 18848,
+        "Дима": 18848,
+        "Катя": 18848,
+        "Саша": 18848
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R03.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L10"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R04",
+      "payer": "Дима",
+      "date": "2025-09-26",
+      "currency": "CNY",
+      "amount": "260.00",
+      "rate": "11.80",
+      "cash_cents": 306800,
+      "eligible_cents": 306800,
+      "shares": {
+        "Макс": 61360,
+        "Оля": 61360,
+        "Дима": 61360,
+        "Катя": 61360,
+        "Саша": 61360
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R04.png",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L12",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L16",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L13"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R05",
+      "payer": "Саша",
+      "date": "2025-09-26",
+      "currency": "CNY",
+      "amount": "690.00",
+      "rate": "11.80",
+      "cash_cents": 814200,
+      "eligible_cents": 814200,
+      "shares": {
+        "Макс": 162840,
+        "Оля": 162840,
+        "Дима": 162840,
+        "Катя": 162840,
+        "Саша": 162840
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R05.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L14",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L13"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R06",
+      "payer": "Катя",
+      "date": "2025-09-27",
+      "currency": "CNY",
+      "amount": "300.00",
+      "rate": "11.95",
+      "cash_cents": 358500,
+      "eligible_cents": 358500,
+      "shares": {
+        "Макс": 71700,
+        "Оля": 71700,
+        "Дима": 71700,
+        "Катя": 71700,
+        "Саша": 71700
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R06.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L18",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L17"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R07",
+      "payer": "Саша",
+      "date": "2025-09-27",
+      "currency": "CNY",
+      "amount": "500.00",
+      "rate": "11.95",
+      "cash_cents": 597500,
+      "eligible_cents": 597500,
+      "shares": {
+        "Макс": 119500,
+        "Оля": 119500,
+        "Дима": 119500,
+        "Катя": 119500,
+        "Саша": 119500
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R07.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L19",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L17"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R08",
+      "payer": "Дима",
+      "date": "2025-09-27",
+      "currency": "CNY",
+      "amount": "1500.00",
+      "rate": "11.95",
+      "cash_cents": 1792500,
+      "eligible_cents": 1792500,
+      "shares": {
+        "Макс": 358500,
+        "Оля": 358500,
+        "Дима": 358500,
+        "Катя": 358500,
+        "Саша": 358500
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R08.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L20",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L17"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R09",
+      "payer": "Катя",
+      "date": "2025-09-27",
+      "currency": "RUB",
+      "amount": "11472.20",
+      "rate": "1",
+      "cash_cents": 1147220,
+      "eligible_cents": 1147220,
+      "shares": {
+        "Макс": 229444,
+        "Оля": 229444,
+        "Дима": 229444,
+        "Катя": 229444,
+        "Саша": 229444
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R09.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L23"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R11",
+      "payer": "Оля",
+      "date": "2025-09-28",
+      "currency": "CNY",
+      "amount": "1040.00",
+      "rate": "12.10",
+      "cash_cents": 1258400,
+      "eligible_cents": 1258400,
+      "shares": {
+        "Макс": 314600,
+        "Оля": 314600,
+        "Дима": 314600,
+        "Катя": 314600
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R11.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L32",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L26"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R12",
+      "payer": "Дима",
+      "date": "2025-09-28",
+      "currency": "CNY",
+      "amount": "350.00",
+      "rate": "12.10",
+      "cash_cents": 423500,
+      "eligible_cents": 423500,
+      "shares": {
+        "Макс": 84700,
+        "Оля": 84700,
+        "Дима": 84700,
+        "Катя": 84700,
+        "Саша": 84700
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R12.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L31",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L26"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R13",
+      "payer": "Катя",
+      "date": "2025-09-28",
+      "currency": "CNY",
+      "amount": "400.00",
+      "rate": "12.10",
+      "cash_cents": 484000,
+      "eligible_cents": 484000,
+      "shares": {
+        "Макс": 96800,
+        "Оля": 96800,
+        "Дима": 96800,
+        "Катя": 96800,
+        "Саша": 96800
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R13.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L34",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L26"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R14",
+      "payer": "Саша",
+      "date": "2025-09-29",
+      "currency": "CNY",
+      "amount": "280.00",
+      "rate": "12.05",
+      "cash_cents": 337400,
+      "eligible_cents": 337400,
+      "shares": {
+        "Макс": 67480,
+        "Оля": 67480,
+        "Дима": 67480,
+        "Катя": 67480,
+        "Саша": 67480
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R14.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L38",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L37"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R10",
+      "payer": "Дима",
+      "date": "2025-09-28",
+      "currency": "CNY",
+      "amount": "-480.00",
+      "rate": "12.10",
+      "cash_cents": -580800,
+      "eligible_cents": -580800,
+      "shares": {
+        "Макс": -116160,
+        "Оля": -116160,
+        "Дима": -116160,
+        "Катя": -116160,
+        "Саша": -116160
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R10.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R08.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L28",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L26"
+      ],
+      "parent": "R08",
+      "status": "refund"
+    },
+    {
+      "id": "R15",
+      "payer": "Саша",
+      "date": "2025-09-29",
+      "currency": "CNY",
+      "amount": "-100.00",
+      "rate": "12.05",
+      "cash_cents": -120500,
+      "eligible_cents": -120500,
+      "shares": {
+        "Макс": -24100,
+        "Оля": -24100,
+        "Дима": -24100,
+        "Катя": -24100,
+        "Саша": -24100
+      },
+      "sources": [
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R15.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/receipts/R07.md",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L39",
+        "https://github.com/alexsunder/hackathon-stages/blob/9e2a2b2367eab781928f27d714832f6c3c2970ea/w1-trip-beijing/chat.md#L37"
+      ],
+      "parent": "R07",
+      "status": "refund"
+    }
+  ],
+  "checks": {
+    "balances_zero_sum": true,
+    "exact_row_allocation": true,
+    "paid_equals_shares": true,
+    "plan_closes_balances": true,
+    "minimum_proven": true,
+    "n_minus_one": true
+  },
+  "source_data_edits": 0
+}

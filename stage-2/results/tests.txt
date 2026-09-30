@@ -1,0 +1,23 @@
+test_confirmed_transfer_changes_balances_not_expense_total (__main__.AccountingEdgeCases.test_confirmed_transfer_changes_balances_not_expense_total) ... ok
+test_minimum_uses_zero_sum_subgroups (__main__.AccountingEdgeCases.test_minimum_uses_zero_sum_subgroups) ... ok
+test_missing_date_rate_is_not_filled_from_another_day (__main__.AccountingEdgeCases.test_missing_date_rate_is_not_filled_from_another_day) ... ok
+test_native_refund_limit (__main__.AccountingEdgeCases.test_native_refund_limit) ... ok
+test_organizer_claim_disagrees_with_receipt (__main__.AccountingEdgeCases.test_organizer_claim_disagrees_with_receipt) ... ok
+test_random_exact_allocations_and_plan_closure (__main__.AccountingEdgeCases.test_random_exact_allocations_and_plan_closure) ... ok
+test_refund_duplicate_combined_and_conflicting_identity_excluded (__main__.AccountingEdgeCases.test_refund_duplicate_combined_and_conflicting_identity_excluded) ... ok
+test_refund_fx_can_exceed_original_rub_value_but_not_native_amount (__main__.AccountingEdgeCases.test_refund_fx_can_exceed_original_rub_value_but_not_native_amount) ... ok
+test_rounding_exact_with_uneven_weights_and_refund (__main__.AccountingEdgeCases.test_rounding_exact_with_uneven_weights_and_refund) ... ok
+test_beijing_controls_and_fx_dates (__main__.ExchangeRegression.test_beijing_controls_and_fx_dates) ... ok
+test_duplicate_messages_and_no_extra_refund_count (__main__.ExchangeRegression.test_duplicate_messages_and_no_extra_refund_count) ... ok
+test_gist_source_appendix_matches_raw_repository (__main__.ExchangeRegression.test_gist_source_appendix_matches_raw_repository) ... ok
+test_ocr_without_answer_transcript (__main__.ExchangeRegression.test_ocr_without_answer_transcript) ... ok
+test_own_inputs_invariants_without_answer_key (__main__.ExchangeRegression.test_own_inputs_invariants_without_answer_key) ... ok
+test_published_foreign_results_reproduce_exactly (__main__.ExchangeRegression.test_published_foreign_results_reproduce_exactly) ... ok
+test_published_source_urls_are_preserved_in_markdown (__main__.ExchangeRegression.test_published_source_urls_are_preserved_in_markdown) ... ok
+test_tbilisi_author_scenario_is_explicitly_provisional (__main__.ExchangeRegression.test_tbilisi_author_scenario_is_explicitly_provisional) ... ok
+test_tbilisi_unresolved_claims_not_silently_allocated (__main__.ExchangeRegression.test_tbilisi_unresolved_claims_not_silently_allocated) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.282s
+
+OK

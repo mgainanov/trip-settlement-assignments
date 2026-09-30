@@ -1,0 +1,56 @@
+{
+  "runs": [
+    {
+      "dataset": "gist",
+      "checks": {
+        "balances_zero_sum": true,
+        "exact_row_allocation": true,
+        "paid_equals_shares": true,
+        "plan_closes_balances": true,
+        "minimum_proven": true,
+        "n_minus_one": true
+      },
+      "final": false
+    },
+    {
+      "dataset": "beijing",
+      "checks": {
+        "balances_zero_sum": true,
+        "exact_row_allocation": true,
+        "paid_equals_shares": true,
+        "plan_closes_balances": true,
+        "minimum_proven": true,
+        "n_minus_one": true
+      },
+      "final": true
+    },
+    {
+      "dataset": "tbilisi",
+      "checks": {
+        "balances_zero_sum": true,
+        "exact_row_allocation": true,
+        "paid_equals_shares": true,
+        "plan_closes_balances": true,
+        "minimum_proven": true,
+        "n_minus_one": true
+      },
+      "final": false
+    },
+    {
+      "dataset": "tbilisi-equal-provisional",
+      "checks": {
+        "balances_zero_sum": true,
+        "exact_row_allocation": true,
+        "paid_equals_shares": true,
+        "plan_closes_balances": true,
+        "minimum_proven": true,
+        "n_minus_one": true
+      },
+      "final": false
+    }
+  ],
+  "source_hashes_unchanged": true,
+  "source_data_edits": 0,
+  "normalized_data_manual_edits": 0,
+  "ocr_manual_corrections": 0
+}

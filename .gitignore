@@ -2,3 +2,7 @@
 __pycache__/
 *.pyc
 .env
+
+# Local source clones and regenerated outputs
+/stage-2/.cache/
+/stage-2/.runs/

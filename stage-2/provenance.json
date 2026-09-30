@@ -1,0 +1,51 @@
+{
+  "gist": {
+    "repository": "https://gist.github.com/d4c414750dfc97dba8ba410cc4330a49.git",
+    "folder": "alexsunder-gist",
+    "input": ".",
+    "source_url": "https://gist.github.com/alexsunder/d4c414750dfc97dba8ba410cc4330a49",
+    "revision": "da53f5ad68947fda42498d06b500151cc343685e",
+    "files": {
+      "report.md": "c6702d6b9d0c22facc0cb7bb11dbf4e679e45472119e7359d8bd2c2163109e39"
+    }
+  },
+  "beijing": {
+    "repository": "https://github.com/alexsunder/hackathon-stages.git",
+    "folder": "hackathon-stages",
+    "input": "w1-trip-beijing",
+    "source_url": "https://github.com/alexsunder/hackathon-stages",
+    "revision": "9e2a2b2367eab781928f27d714832f6c3c2970ea",
+    "files": {
+      "w1-trip-beijing/chat.md": "c432e5f5b3d3958ad5719832fe2723dc1c9d02d05bdb8c7fb90dd9b5959d90b1",
+      "w1-trip-beijing/README.md": "5980be55c292a869efb36fd1302f55d5e44ce1895008e7c05a68ffe64d23a62d",
+      "w1-trip-beijing/rates.csv": "58789413922beb97a8008e37d184a834ca1b38c251d0bbf875578b128e6a7196",
+      "w1-trip-beijing/receipts/R04.png": "2e74c4255f1a2853da4a856e7dfbc697534892c6a32b9b6d69c44702c2d1d10f",
+      "w1-trip-beijing/receipts/R15.md": "369753571ae00ac2d4237c4e6e08a171749aff3ffde2377b30a196df777aa5c9",
+      "w1-trip-beijing/receipts/R05.md": "51195a3e60efd2ed850508492b33194102375abc01c7d870f38e978f1c1bd7b6",
+      "w1-trip-beijing/receipts/R11.md": "3d528d4a22fb3658c3554ced3a6e57998bc8b929f058a4baa7d25af0b0cd322c",
+      "w1-trip-beijing/receipts/R01.md": "81f5b20362c5a91c26cd7ce9ddf4710ed9af7c1469c9c38f12c4ef055bdb36c0",
+      "w1-trip-beijing/receipts/R10.md": "d2241e344a6cb4fc0b3e50cb27fcf7ea0f2660d3c9db49dd7d7f082f870a1fcb",
+      "w1-trip-beijing/receipts/R14.md": "919c643d8d61c1f32bc0dbeef813dffc861eddb0d84a7a3ae0f2606c91e2c8ba",
+      "w1-trip-beijing/receipts/R09.md": "08ad67b1ea42a38b45b4b46c5f29c070a1bd9afa181ceb7b3adf52ad30e8c719",
+      "w1-trip-beijing/receipts/R08.md": "54af6e4d8d499963741017db13d6fcfadd2dbd9030b90e2420945427e711514d",
+      "w1-trip-beijing/receipts/R13.md": "24c456730e95779e15b3e348209990764af643a6f674f60c3c2187ec22fe96de",
+      "w1-trip-beijing/receipts/R03.md": "1436b7f65d97b90e4955965696daa8aac121da01c8d69fe1feba944203bac05e",
+      "w1-trip-beijing/receipts/R07.md": "af0b4ac918315f8f5c15c8bd5ba60772a509617409b8c4aa71e0d4f8443a82c0",
+      "w1-trip-beijing/receipts/R06.md": "eab1bb4e26690ee1f457a7c3b1e353dce6e428fff561c46ddb8b994ff5355833",
+      "w1-trip-beijing/receipts/R12.md": "f8f699d88853727a1c1b2d6beadfcfd3fc11b4befed964b8386d550960ad4399",
+      "w1-trip-beijing/receipts/R02.md": "b029db631891124d6f8a2e8e5a42eebfa63e541a76d458d64cec0f2bced8db66"
+    }
+  },
+  "tbilisi": {
+    "repository": "https://github.com/baramba/trip-settle-tbilisi.git",
+    "folder": "trip-settle-tbilisi",
+    "input": ".",
+    "source_url": "https://github.com/baramba/trip-settle-tbilisi",
+    "revision": "7fa80cbf391cdf8186e53bd536f4efcb886d7661",
+    "files": {
+      "chat.md": "4fbae603c70a26c3d42c7b897a7aa23ed765dca6126fa8aed9adf1ae289a63fa",
+      "data.json": "c88353f58e90bf66f9acf4ad5da439be61833308cf1c67d4be1d808b4469d502",
+      "README.md": "d74ededa40ecc662a1d19d098bc1e8e58567f2d76b323b0f491237f75b62d6d9"
+    }
+  }
+}

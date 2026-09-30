@@ -1,0 +1,427 @@
+{
+  "people": [
+    "Аня",
+    "Борис",
+    "Вера",
+    "Глеб",
+    "Ира"
+  ],
+  "scenario": "confirmed",
+  "cash_total_cents": 9000000,
+  "allocated_total_cents": 8900000,
+  "pending_allocation_cents": 100000,
+  "gross_cents": 9550000,
+  "refunds_cents": 550000,
+  "paid_cents": {
+    "Аня": 4222000,
+    "Борис": 678000,
+    "Вера": 2383000,
+    "Глеб": 1005000,
+    "Ира": 612000
+  },
+  "shares_cents": {
+    "Аня": 1866100,
+    "Борис": 1672400,
+    "Вера": 1866100,
+    "Глеб": 1866100,
+    "Ира": 1629300
+  },
+  "balances_cents": {
+    "Аня": 2355900,
+    "Борис": -994400,
+    "Вера": 516900,
+    "Глеб": -861100,
+    "Ира": -1017300
+  },
+  "plan": [
+    {
+      "sender": "Ира",
+      "recipient": "Аня",
+      "cents": 1017300
+    },
+    {
+      "sender": "Борис",
+      "recipient": "Аня",
+      "cents": 994400
+    },
+    {
+      "sender": "Глеб",
+      "recipient": "Аня",
+      "cents": 344200
+    },
+    {
+      "sender": "Глеб",
+      "recipient": "Вера",
+      "cents": 516900
+    }
+  ],
+  "minimum_transfers": 4,
+  "known_transfers": [],
+  "final_settlement_ready": false,
+  "disputes": [
+    {
+      "kind": "missing_amount",
+      "text": "Расход заявлен без суммы/чека; не включён. Нужны сумма и источник оплаты.",
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L32",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L44"
+      ],
+      "amount_rub": null,
+      "state": "open"
+    },
+    {
+      "kind": "unconfirmed_transfer",
+      "text": "Перевод между участниками заявлен/обещан без достаточной суммы и подтверждения получателя; баланс не уменьшен.",
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L37"
+      ],
+      "amount_rub": null,
+      "state": "open"
+    },
+    {
+      "kind": "disputed_allocation",
+      "text": "Удержание за ущерб подтверждено, но виновник и согласованное распределение не установлены. Основной расчёт оставляет сумму нераспределённой; equal-provisional — отдельный условный сценарий поровну.",
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L40",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L7",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L41",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L42"
+      ],
+      "amount_rub": 100000,
+      "state": "open"
+    }
+  ],
+  "duplicates": [
+    {
+      "receipt": "R02",
+      "messages": [
+        "M07",
+        "M08"
+      ],
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L13",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L13",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L14"
+      ]
+    }
+  ],
+  "notes": [],
+  "rows": [
+    {
+      "id": "R01",
+      "payer": "Аня",
+      "date": "2026-08-28",
+      "currency": "RUB",
+      "amount": "30000",
+      "rate": "1",
+      "cash_cents": 3000000,
+      "eligible_cents": 2900000,
+      "shares": {
+        "Аня": 580000,
+        "Борис": 580000,
+        "Вера": 580000,
+        "Глеб": 580000,
+        "Ира": 580000
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L7"
+      ],
+      "status": "partial_allocation_pending"
+    },
+    {
+      "id": "R02",
+      "payer": "Борис",
+      "date": "2026-09-03",
+      "currency": "GEL",
+      "amount": "50",
+      "rate": "29.4",
+      "cash_cents": 147000,
+      "eligible_cents": 147000,
+      "shares": {
+        "Аня": 29400,
+        "Борис": 29400,
+        "Вера": 29400,
+        "Глеб": 29400,
+        "Ира": 29400
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L13",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L14",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L15"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R03",
+      "payer": "Вера",
+      "date": "2026-09-03",
+      "currency": "GEL",
+      "amount": "250",
+      "rate": "29.4",
+      "cash_cents": 735000,
+      "eligible_cents": 735000,
+      "shares": {
+        "Аня": 147000,
+        "Борис": 147000,
+        "Вера": 147000,
+        "Глеб": 147000,
+        "Ира": 147000
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L16",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L15"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R04",
+      "payer": "Глеб",
+      "date": "2026-09-04",
+      "currency": "GEL",
+      "amount": "200",
+      "rate": "29.6",
+      "cash_cents": 592000,
+      "eligible_cents": 592000,
+      "shares": {
+        "Аня": 118400,
+        "Борис": 118400,
+        "Вера": 118400,
+        "Глеб": 118400,
+        "Ира": 118400
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L19",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L18"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R05",
+      "payer": "Ира",
+      "date": "2026-09-04",
+      "currency": "GEL",
+      "amount": "100",
+      "rate": "29.6",
+      "cash_cents": 296000,
+      "eligible_cents": 296000,
+      "shares": {
+        "Аня": 59200,
+        "Борис": 59200,
+        "Вера": 59200,
+        "Глеб": 59200,
+        "Ира": 59200
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L21",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L18"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R06",
+      "payer": "Аня",
+      "date": "2026-09-04",
+      "currency": "GEL",
+      "amount": "320",
+      "rate": "29.6",
+      "cash_cents": 947200,
+      "eligible_cents": 947200,
+      "shares": {
+        "Аня": 236800,
+        "Борис": 236800,
+        "Вера": 236800,
+        "Глеб": 236800
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L24",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L18"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R07",
+      "payer": "Вера",
+      "date": "2026-09-05",
+      "currency": "RUB",
+      "amount": "15000",
+      "rate": "1",
+      "cash_cents": 1500000,
+      "eligible_cents": 1500000,
+      "shares": {
+        "Аня": 300000,
+        "Борис": 300000,
+        "Вера": 300000,
+        "Глеб": 300000,
+        "Ира": 300000
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L27",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L31"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R08",
+      "payer": "Борис",
+      "date": "2026-09-05",
+      "currency": "GEL",
+      "amount": "180",
+      "rate": "29.5",
+      "cash_cents": 531000,
+      "eligible_cents": 531000,
+      "shares": {
+        "Аня": 106200,
+        "Борис": 106200,
+        "Вера": 106200,
+        "Глеб": 106200,
+        "Ира": 106200
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L29",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L28"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R09",
+      "payer": "Глеб",
+      "date": "2026-09-05",
+      "currency": "GEL",
+      "amount": "140",
+      "rate": "29.5",
+      "cash_cents": 413000,
+      "eligible_cents": 413000,
+      "shares": {
+        "Аня": 82600,
+        "Борис": 82600,
+        "Вера": 82600,
+        "Глеб": 82600,
+        "Ира": 82600
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L30",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L28"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R10",
+      "payer": "Аня",
+      "date": "2026-09-06",
+      "currency": "GEL",
+      "amount": "260",
+      "rate": "29.8",
+      "cash_cents": 774800,
+      "eligible_cents": 774800,
+      "shares": {
+        "Аня": 193700,
+        "Вера": 193700,
+        "Глеб": 193700,
+        "Ира": 193700
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L36",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L35"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R11",
+      "payer": "Вера",
+      "date": "2026-09-06",
+      "currency": "GEL",
+      "amount": "100",
+      "rate": "29.8",
+      "cash_cents": 298000,
+      "eligible_cents": 298000,
+      "shares": {
+        "Аня": 59600,
+        "Борис": 59600,
+        "Вера": 59600,
+        "Глеб": 59600,
+        "Ира": 59600
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L38",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L35"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "R12",
+      "payer": "Ира",
+      "date": "2026-09-06",
+      "currency": "RUB",
+      "amount": "3160",
+      "rate": "1",
+      "cash_cents": 316000,
+      "eligible_cents": 316000,
+      "shares": {
+        "Аня": 63200,
+        "Борис": 63200,
+        "Вера": 63200,
+        "Глеб": 63200,
+        "Ира": 63200
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L39"
+      ],
+      "status": "included"
+    },
+    {
+      "id": "V01",
+      "payer": "Аня",
+      "date": "2026-09-08",
+      "currency": "RUB",
+      "amount": "-4000",
+      "rate": "1",
+      "cash_cents": -400000,
+      "eligible_cents": -400000,
+      "shares": {
+        "Аня": -80000,
+        "Борис": -80000,
+        "Вера": -80000,
+        "Глеб": -80000,
+        "Ира": -80000
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L40",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L7"
+      ],
+      "parent": "R01",
+      "status": "refund"
+    },
+    {
+      "id": "V02",
+      "payer": "Вера",
+      "date": "2026-09-05",
+      "currency": "RUB",
+      "amount": "-1500",
+      "rate": "1",
+      "cash_cents": -150000,
+      "eligible_cents": -150000,
+      "shares": {
+        "Аня": -30000,
+        "Борис": -30000,
+        "Вера": -30000,
+        "Глеб": -30000,
+        "Ира": -30000
+      },
+      "sources": [
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L31",
+        "https://github.com/baramba/trip-settle-tbilisi/blob/7fa80cbf391cdf8186e53bd536f4efcb886d7661/chat.md#L27"
+      ],
+      "parent": "R07",
+      "status": "refund"
+    }
+  ],
+  "checks": {
+    "balances_zero_sum": true,
+    "exact_row_allocation": true,
+    "paid_equals_shares": true,
+    "plan_closes_balances": true,
+    "minimum_proven": true,
+    "n_minus_one": true
+  },
+  "source_data_edits": 0
+}

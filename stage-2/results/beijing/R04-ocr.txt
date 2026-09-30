@@ -1,0 +1,30 @@
+BEIJING TAXI
+IRMA
+
+Date:
+Time:
+From:
+
+To:
+Car
+
+Fare
+Toll
+
+2025-09-26
+18:52
+
+PEK Terminal 3
+Dongcheng
+B-17731
+
+235.00
+25.00
+
+TOTAL CNY 260.00
+
+Paid:
+
+WeChat Pay
+
+Thank you / iii

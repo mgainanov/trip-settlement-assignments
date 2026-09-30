@@ -1,0 +1,18 @@
+{
+  "public_tests": 18,
+  "random_cases": 100,
+  "source_links_checked": 1232,
+  "unique_external_files": 20,
+  "source_anchors_verified": true,
+  "clean_folder_report_json_exact": true,
+  "own_oracle_regression_passed_privately": true,
+  "own_answers_published": false,
+  "source_data_edits": 0,
+  "normalized_data_manual_edits": 0,
+  "ocr_manual_corrections": 0,
+  "tool_hashes": {
+    "normalize.py": "8f1ee253c1723978c56f7825bedc98a07a6dbd7dcf1c89d5973cbd49151c8482",
+    "settle.py": "5669b219b97e4388bc902a5a7989f6d424a991aa6b2f47af83efb08265a713fd",
+    "test_settlement.py": "5ec926387c80cd6364c6453cdcbf057dd00acbf6dca8578650bfc3ab79ac23c5"
+  }
+}
